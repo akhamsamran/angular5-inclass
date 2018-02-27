@@ -3,7 +3,7 @@ import {User} from "../shared/classes/user";
 import {UserService} from "../shared/services/user.service";
 
 @Component({
-	templateUrl: require("./templates/splash.html")
+	template: require("./splash.component.html")
 })
 
 export class SplashComponent implements OnInit {
