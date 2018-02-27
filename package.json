@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/deepdivedylan/angular5-onscreen.git"
+    "url": "https://github.com/akhamsamran1/angular5-onscreen.git"
   },
   "dependencies": {
     "@angular/common": "^5.2.6",
@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "@types/node": "^8.0.47",
+    "ajv": "6.2.0"
     "awesome-typescript-loader": "^3.5.0",
     "bootstrap": "^4.0.0",
     "css-loader": "^0.28.10",
