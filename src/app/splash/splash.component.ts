@@ -1,9 +1,9 @@
 import {Component, OnInit} from "@angular/core";
-import {User} from "../classes/user";
-import {UserService} from "../services/user.service";
+import {User} from "../shared/classes/user";
+import {UserService} from "../shared/services/user.service";
 
 @Component({
-	templateUrl: "./templates/splash.html"
+	templateUrl: require("./templates/splash.html")
 })
 
 export class SplashComponent implements OnInit {
